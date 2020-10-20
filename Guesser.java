@@ -10,11 +10,6 @@ import java.io.Console;
 public class Guesser{
   private int low;
   private int high;
-
-  
-  
-  // Write the constructor below this line.
-  
   public Guesser(int low, int high) {
   
       this.low = low;
@@ -28,8 +23,8 @@ public class Guesser{
    * rules() method, next the doGuesses() method.
    */
   public void start(){
-    // call the rules method here
-    // call the doGuesses() method here
+    rules();
+    doGuesses();
   }
 
   private void rules(){
